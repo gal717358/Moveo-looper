@@ -1,0 +1,42 @@
+.track {
+  display: flex;
+  position: relative;
+}
+
+.track__container {
+  width: 1000px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+.track__wrapper {
+  display: flex;
+  width: 120px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.404);
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+  padding-left: 15px;
+}
+
+.track__mute {
+  align-items: center;
+  display: block;
+  padding: 3px;
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+  border-radius: 30%;
+  text-align: center;
+}
+
+.track__mute:hover{
+  border-color: pink;
+  color: pink;
+}
+
+.track__title {
+  color: white;
+  padding-left: 10px;
+}

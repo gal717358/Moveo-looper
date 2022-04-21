@@ -1,0 +1,7 @@
+@import url('./vendor/normalize.css');
+
+@import url('./Components/App/App.css');
+@import url('./Components/Player/Player.css');
+@import url('./Components/Buttons/Buttons.css');
+@import url('./Components/Track/Track.css');
+@import url('./Components/TrackList/TrackList.css');

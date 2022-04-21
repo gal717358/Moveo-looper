@@ -1,0 +1,36 @@
+.player__container {
+position: relative;
+}
+
+.player__bar{
+  position: absolute;
+  top: 1;
+  left: 140px;
+  -webkit-appearance: none;
+  width: 86%;
+  height: 560px;
+  background: transparent;
+  z-index: 2;
+  cursor: pointer;
+}
+.player__bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.player__bar_disable {
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.player__bar:focus {
+  outline: none;
+}
+
+.player__bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 550px;
+  width: 1px;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
