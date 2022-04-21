@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.41a5262a.css",
+    "main.js": "./static/js/main.89255d41.js",
+    "static/js/787.71756e0e.chunk.js": "./static/js/787.71756e0e.chunk.js",
+    "static/media/ALL TRACK.mp3": "./static/media/ALL TRACK.0fa4445ea8455a4babf4.mp3",
+    "static/media/B VOC.mp3": "./static/media/B VOC.5ffa9906c5972f1fb03c.mp3",
+    "static/media/DRUMS.mp3": "./static/media/DRUMS.f0332952662d2e1f5d15.mp3",
+    "static/media/HE HE VOC.mp3": "./static/media/HE HE VOC.fd659059c1d55320658f.mp3",
+    "static/media/HIGH VOC.mp3": "./static/media/HIGH VOC.f09f6e03383b234370d0.mp3",
+    "static/media/JIBRISH.mp3": "./static/media/JIBRISH.d23f0b604ef55163d7e6.mp3",
+    "static/media/LEAD 1.mp3": "./static/media/LEAD 1.f8658c330b3d07661550.mp3",
+    "static/media/UUHO VOC.mp3": "./static/media/UUHO VOC.bc87006a5f29b4cfa918.mp3",
+    "static/media/_tambourine_shake_higher.mp3": "./static/media/_tambourine_shake_higher.2ceb47bfdbea6e81aae9.mp3",
+    "static/media/moveo-logo.svg": "./static/media/moveo-logo.cb5200783b4c6f1e53e166b569ab1929.svg",
+    "index.html": "./index.html",
+    "main.41a5262a.css.map": "./static/css/main.41a5262a.css.map",
+    "main.89255d41.js.map": "./static/js/main.89255d41.js.map",
+    "787.71756e0e.chunk.js.map": "./static/js/787.71756e0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41a5262a.css",
+    "static/js/main.89255d41.js"
+  ]
+}
