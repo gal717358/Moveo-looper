@@ -1,6 +1,6 @@
 # Moveo test - The looper of Moveo
 
-[Moveo looper](/src/images/moveo-screenShot.PNG)
+![Moveo looper](/src/images/moveo-screenShot.PNG)
 
 Loop machine built with React.
 
