@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.41a5262a.css",
-    "main.js": "./static/js/main.89255d41.js",
+    "main.css": "./static/css/main.11c831ca.css",
+    "main.js": "./static/js/main.faece72a.js",
     "static/js/787.71756e0e.chunk.js": "./static/js/787.71756e0e.chunk.js",
     "static/media/ALL TRACK.mp3": "./static/media/ALL TRACK.0fa4445ea8455a4babf4.mp3",
     "static/media/B VOC.mp3": "./static/media/B VOC.5ffa9906c5972f1fb03c.mp3",
@@ -14,12 +14,12 @@
     "static/media/_tambourine_shake_higher.mp3": "./static/media/_tambourine_shake_higher.2ceb47bfdbea6e81aae9.mp3",
     "static/media/moveo-logo.svg": "./static/media/moveo-logo.cb5200783b4c6f1e53e166b569ab1929.svg",
     "index.html": "./index.html",
-    "main.41a5262a.css.map": "./static/css/main.41a5262a.css.map",
-    "main.89255d41.js.map": "./static/js/main.89255d41.js.map",
+    "main.11c831ca.css.map": "./static/css/main.11c831ca.css.map",
+    "main.faece72a.js.map": "./static/js/main.faece72a.js.map",
     "787.71756e0e.chunk.js.map": "./static/js/787.71756e0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41a5262a.css",
-    "static/js/main.89255d41.js"
+    "static/css/main.11c831ca.css",
+    "static/js/main.faece72a.js"
   ]
 }
