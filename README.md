@@ -1,5 +1,7 @@
 # Moveo test - The looper of Moveo
 
+[Moveo looper](/src/images/moveo-screenShot.PNG)
+
 Loop machine built with React.
 
 Based on 9 effect, each effect with a mute and unmute option.
