@@ -4,12 +4,12 @@ import Player from '../Player/Player';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <main className='main'>
-      <img className='logo' src={logo} alt='moveo-logo'></img>
-      <Player/>
+        <img className='logo' src={logo} alt='moveo-logo'></img>
+        <Player />
+        <p className='app__rights'>All rights reserved Gal.b</p>
       </main>
-      
     </div>
   );
 }

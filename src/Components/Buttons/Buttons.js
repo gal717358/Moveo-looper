@@ -39,7 +39,7 @@ const Buttons = (props) => {
           </span>
           /
           <span className='button__duration'>{`${
-            props.timeCalculation(props.trackDuration) !== '00:17'
+            props.timeCalculation(props.trackDuration).includes('NaN')
               ? '00:00'
               : props.timeCalculation(props.trackDuration)
           }`}</span>

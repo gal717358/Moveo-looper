@@ -35,3 +35,25 @@
 .button:focus {
   outline: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .buttons__container {
+    width: 300px;
+    padding: 6px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .buttons__container {
+    width: 250px;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .buttons__container {
+    width: 200px;
+  padding: 4px;
+  }
+}

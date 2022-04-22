@@ -14,3 +14,10 @@ text-align: center;
 height: 82px;
 width: 82px;
 }
+
+
+@media screen and (max-width: 620px) {
+  .app__rights{
+font-size: 14px;
+  }
+}

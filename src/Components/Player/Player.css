@@ -1,8 +1,8 @@
 .player__container {
-position: relative;
+  position: relative;
 }
 
-.player__bar{
+.player__bar {
   position: absolute;
   top: 1;
   left: 140px;
@@ -34,3 +34,42 @@ position: relative;
   cursor: pointer;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .player__bar {
+    left: 140px;
+    width: 80%;
+    height: 560px;
+  }
+  .player__bar::-webkit-slider-thumb {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .player__bar {
+    left: 140px;
+    width: 75%;
+    height: 470px;
+  }
+  .player__bar::-webkit-slider-thumb {
+    height: 460px;
+  }
+  .player__title{
+    font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+  .player__bar {
+    left: 140px;
+    width: 60%;
+    height: 380px;
+  }
+  .player__bar::-webkit-slider-thumb {
+    height: 370px;
+  }
+  .player__title{
+  font-size: 20px;
+  }
+}

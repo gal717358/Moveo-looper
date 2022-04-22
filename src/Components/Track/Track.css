@@ -7,6 +7,7 @@
   width: 1000px;
   height: 60px;
   border: 1px solid rgba(0, 0, 0, 0.24);
+  margin: 0 16px;
 }
 .track__wrapper {
   display: flex;
@@ -31,7 +32,7 @@
   text-align: center;
 }
 
-.track__mute:hover{
+.track__mute:hover {
   border-color: pink;
   color: pink;
 }
@@ -39,4 +40,44 @@
 .track__title {
   color: white;
   padding-left: 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .track__container {
+    width: 800px;
+    height: 60px;
+  }
+  .track__wrapper {
+    width: 100px;
+    padding-left: 15px;
+  }
+}
+
+
+@media screen and (max-width: 820px) {
+  .track__container {
+    width: 600px;
+    height: 50px;
+  }
+  .track__wrapper {
+    width: 100px;
+    height: 50px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .track__container {
+    width: 350px;
+    height: 40px;
+  }
+  .track__wrapper {
+    width: 100px;
+    height: 40px;
+  }
+  .track__title {
+    font-size: 14px;
+  }
+
 }
