@@ -87,33 +87,33 @@ function Player() {
   };
 
   return (
-      <div className='player__container'>
-        <h1 className='player__title'>The Loop machine of Moveo</h1>
-        <input
-          className=
-          {
-            isPlaying ? 'player__bar' : 'player__bar player__bar_disable'
-          }
-          onChange={setRange}
-          type='range'
-          min='0'
-          max='17'
-          defaultValue='0'
-          ref={progressBar}
-        />
-        <TrackList tracks={tracks} onMute={toggleMute} />
+    <div className='player__container'>
+      <h1 className='player__title'>The Loop machine of Moveo</h1>
+      <input
+        className={
+          isPlaying ? 'player__bar' : 'player__bar player__bar_disable'
+        }
+        onChange={setRange}
+        type='range'
+        min='0'
+        max='17'
+        defaultValue='0'
+        ref={progressBar}
+      />
+      <TrackList tracks={tracks} onMute={toggleMute} />
 
-        <Buttons
-          playPause={handlePlayPause}
-          stopPlay={handleStopPlay}
-          isPlaying={isPlaying}
-          looping={handleLoop}
-          isLooping={isLooping}
-          trackDuration={duration}s
-          currentTime={currentTime}
-          timeCalculation={timeCalculation}
-        />
-      </div>
+      <Buttons
+        playPause={handlePlayPause}
+        stopPlay={handleStopPlay}
+        isPlaying={isPlaying}
+        looping={handleLoop}
+        isLooping={isLooping}
+        trackDuration={duration}
+        s
+        currentTime={currentTime}
+        timeCalculation={timeCalculation}
+      />
+    </div>
   );
 }
 

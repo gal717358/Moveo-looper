@@ -1,4 +1,4 @@
-.App{
+.App {
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -6,18 +6,17 @@
   background-color: rgba(211, 211, 211, 0.986);
 }
 
-.main{
-text-align: center;
+.main {
+  text-align: center;
 }
 
-.logo{
-height: 82px;
-width: 82px;
+.logo {
+  height: 82px;
+  width: 82px;
 }
-
 
 @media screen and (max-width: 620px) {
-  .app__rights{
-font-size: 14px;
+  .app__rights {
+    font-size: 14px;
   }
 }

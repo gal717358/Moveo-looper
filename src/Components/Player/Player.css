@@ -34,7 +34,6 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 1024px) {
   .player__bar {
     left: 140px;
@@ -55,9 +54,9 @@
   .player__bar::-webkit-slider-thumb {
     height: 460px;
   }
-  .player__title{
+  .player__title {
     font-size: 24px;
-    }
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -69,7 +68,7 @@
   .player__bar::-webkit-slider-thumb {
     height: 370px;
   }
-  .player__title{
-  font-size: 20px;
+  .player__title {
+    font-size: 20px;
   }
 }

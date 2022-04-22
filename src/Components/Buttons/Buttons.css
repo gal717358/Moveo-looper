@@ -43,7 +43,6 @@
   }
 }
 
-
 @media screen and (max-width: 820px) {
   .buttons__container {
     width: 250px;
@@ -54,6 +53,6 @@
 @media screen and (max-width: 620px) {
   .buttons__container {
     width: 200px;
-  padding: 4px;
+    padding: 4px;
   }
 }
